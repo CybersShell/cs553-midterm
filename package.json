@@ -1,0 +1,28 @@
+{
+  "name": "cs553-midterm-anw0044",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/CybersShell/cs553-midterm#readme",
+  "bugs": {
+    "url": "https://github.com/CybersShell/cs553-midterm/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CybersShell/cs553-midterm.git"
+  },
+  "license": "ISC",
+  "author": "Andrew Woodlee - anw0044@uah.edu",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
