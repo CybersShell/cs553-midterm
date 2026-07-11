@@ -52,6 +52,7 @@ paths:
               schema:
                 type: object
                 items:
+                  status: success
                   $ref: '#/components/schemas/Task'
         "400":
           description: Error with user input
@@ -105,6 +106,7 @@ paths:
               schema:
                 type: object
                 items:
+                  status: success
                   $ref: '#/components/schemas/Task'
         "400":
           description: Error with user input
