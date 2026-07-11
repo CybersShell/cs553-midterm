@@ -150,13 +150,6 @@ paths:
 
 
 
-  #
-  # Remember:
-  # - Express routes use :id, such as /tasks/:id.
-  # - OpenAPI paths use {id}, such as /tasks/{id}.
-  #
-  # You may define schemas under components/schemas if you want to avoid
-  # repeating the same object structure many times.
 
 components:
   schemas:
